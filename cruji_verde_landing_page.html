@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruji Verde</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fafff6;
+            color: #333;
+        }
+        header {
+            background-color: #a8e87a;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1613145996363-44ab3a6ac2ff') no-repeat center center/cover;
+            height: 90vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+        }
+        .hero button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1em;
+            background-color: #d9ff00;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .benefits div {
+            background-color: #e9ffe1;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .opinions {
+            background-color: #f0fff0;
+            font-style: italic;
+        }
+        .contact {
+            background-color: #d8fdd1;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #c2e9a2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cruji Verde</h1>
+        <nav>
+            <a href="#producto">Producto</a>
+            <a href="#opiniones">Opiniones</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Cruji Verde – Sabor que cruje, estilo que pega</h2>
+        <button>¡Pruébalo ahora!</button>
+    </div>
+
+    <section id="producto">
+        <h2>¿Qué es Cruji Verde?</h2>
+        <p>Chips de banano verde, naturales, saludables y crujientes. Perfectos para acompañarte en cualquier momento.</p>
+        <div class="benefits">
+            <div>🌱 Sin gluten</div>
+            <div>🍌 100% natural</div>
+            <div>🔥 Alto en fibra</div>
+            <div>⏱️ Ideal para snacks</div>
+        </div>
+    </section>
+
+    <section id="opiniones" class="opinions">
+        <h2>Lo que dicen nuestros fans</h2>
+        <p>“¡Perfecto para mis breaks!” – Ana, 19 años</p>
+        <p>“Snack crujiente y sabroso, lo amo.” – Luis, 21 años</p>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <p>Síguenos en redes: @CrujiVerde</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required><br><br>
+            <textarea placeholder="Tu mensaje..." rows="4" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Cruji Verde. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
